@@ -1,12 +1,30 @@
-Traffic Accident Analysis: UK Traffic Accidents Data (2005-2014)
-Introduction
+# UK Traffic Accident Analysis 📊
 
-This analysis examines UK traffic accident data from 2005-2014 to identify patterns, risk factors, and trends that can inform evidence-based road safety policies. Using data science techniques and machine learning, this study addresses key questions:
+This project analyzes traffic accident data in the UK to uncover patterns, identify risk factors, and explore trends over time.
 
-When and where do accidents most frequently occur? What environmental factors increase accident risk? How do urban and rural patterns differ? Can we predict future accident trends?
+##  Key Analyses
 
-Methodology The analysis combines three datasets spanning 2005-2014, employing:
+- **Urban vs Rural**: How accident frequency and severity differ across regions  
+- **Vehicle Involvement**: Distribution of vehicles per accident  
+- **Weekly Trends**: Accidents by day of the week  
+- **Time Series Forecasting**: Predicting future accident rates using ARIMA
 
-Temporal Analysis: Hour, day, and seasonal patterns Environmental Assessment: Weather, lighting, and road conditions Geographic Comparison: Urban vs. rural accident characteristics Predictive Modeling: Random Forest algorithm for trend forecasting
+## 📁 Dataset
 
-This multi-dimensional approach transforms raw accident data into actionable insights for improved road safety planning and policy development
+The dataset contains over 1.6 million accident records across the UK, including information on location, weather, severity, and traffic conditions.  
+Source: https://www.kaggle.com/datasets/daveianhickey/2000-16-traffic-flow-england-scotland-wales/data
+
+##  Tools Used
+
+- Python (Pandas, Seaborn, Matplotlib)
+- Time Series Modeling (ARIMA - statsmodels)
+- Jupyter/Google Colab
+
+## Highlights
+
+> Accidents are more frequent in urban areas, but rural zones often involve more vehicles per crash.  
+> Fridays show a notable rise in accident counts.  
+> Forecasting reveals potential seasonal peaks in accident trends.
+
+
+
